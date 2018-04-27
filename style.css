@@ -1,0 +1,41 @@
+#image{
+	position: absolute;
+	top:30px;
+	margin-left: 20%;
+	height: 80%;
+	width: 60%;
+	display: table;
+	border-radius: 10px;
+	animation: fade 3s infinite;
+}
+@keyframes fade{
+	0%{
+		opacity: ;
+	}
+	20%{
+		opacity: 
+	}
+	95%{
+		opacity: ;
+	}
+	100%{
+		opacity: ;
+	}
+}
+button{
+	padding: 5px;
+	background-color: powderblue;
+	border-radius: 8px;
+	font-size: 120%;
+	color: #404040;
+}
+#prev button{
+	position: absolute;
+	top:85%;
+	left: 20%;
+}
+#next button{
+	position: absolute;
+	top:85%;
+	right: 18.8%;
+}
