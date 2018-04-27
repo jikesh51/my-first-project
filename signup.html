@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title> Signup page </title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<script type="text/javascript" src="javascript.js"></script>
+		<script type="text/javascript" src="../jquery-3.2.1.js"></script>
+	</head>
+	<body style="background-color: #eecfb2;">
+		<div id="lgborder">
+			<a href="index.html" id="lgntitle"> <em> BookPlanet.in</em> </a>
+		</div>
+
+<form action=" " method="post">
+	<div id="sgnup" style="background-color: #aad4ff;">
+	<h2 align="center">create a new account </h2>
+	<table align="center" style=" padding: 20px;">
+		<tr>
+			<td>First Name : </td><td><input type="text" name="fname" required pattern="^[A-Za-z]+" autofocus placeholder="Enter firstname"></td>
+		</tr>
+		<tr>
+			<td>Last Name : </td><td><input type="text" name="lname" required pattern="^[A-Za-z]+" placeholder="Enter Lastname"></td>
+		</tr>
+		<tr>
+			<td>Address : </td><td><input type="text" name="address" required placeholder="Enter Address"></td>
+		</tr>
+		<tr>
+			<td>Birthday : </td><td><input type="date" name="bday" required ></td>
+		</tr>
+		<tr>
+			<td>Email : </td><td><input type="email" name="email" required placeholder="Enter Email"></td>
+		</tr>
+		<tr>
+			<td>Username : </td><td><input type="text" name="uname" required pattern="^[A-Za-z0-9]+" placeholder="Enter username"></td>
+		</tr>
+		<tr>
+			<td>New password : </td><td><input type="password" name="pwd" required pattern="^[A-Za-z0-9]+" placeholder="Enter password"></td>
+		</tr>
+		<tr>
+			<td>Confirm password : </td><td><input type="password" name="pwd2" required pattern="^[A-Za-z0-9]+" placeholder="Enter confirm password"></td>
+		</tr>
+		<tr>
+			<td>Gender : </td><td>Male<input type="radio" name="gender" value="male" required>Female<input type="radio" name="gender" value="female" required></td>
+		</tr>
+		<tr>
+			<td>Contact No : </td><td><input type="tel" name="contactno" required placeholder="Enter phone no."></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="5" style="padding: 10px;"><input type="submit" name="submit" value="Create Account" title="New user register here"> </td>
+		</tr>
+
+	</table>
+	</div>
+</form>
+				
+	</body>
+</html>

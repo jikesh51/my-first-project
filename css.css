@@ -1,0 +1,294 @@
+#container{
+		background-color: #eecfb2;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px; 
+		overflow: auto;
+}
+#brder{
+	position: absolute;
+	border: 0.5px solid #84613d;
+	width: 100%;
+	height: 140px;
+	background-color: #84613d;	
+}
+#bpln{
+	position: absolute;
+	font-size: 40px;
+	top: 38px;
+	left: 30px;
+	font-family: chiller;
+	color :#f0f0f0;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+#bpln:hover{
+	color: #e0e0e0;
+}
+#srchbook{
+	position: absolute;
+	left: 280px;
+	top: 40px;
+	font-size: 15px;
+	width: 700px;
+	height: 40px;
+	border-radius: 25px;
+	border: 0px solid;
+	box-shadow: 1px 1px 7px;
+	outline: none;
+	padding-left: 30px;
+}
+#srch{
+	border :1px solid;
+	position: absolute;
+	top :39px;
+	left :930px;
+	height: 40px;
+	width: 50px;
+	outline: none;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-color: #63bcdb;
+}
+#srch:hover{
+	background-color: #0aa5dd;
+}
+#srchbtn{
+	height: 20px;
+	width: 20px;
+	margin: 10px;
+	margin-left: 15px;
+}
+#ttlimg{
+	position: absolute;
+	top: 28px;
+	left: 180px;
+	height: 60px;
+	width: 60px;
+}
+#page{
+	float: right;
+	margin-right: 40px;
+	color: #f0f0f0;
+	font-size: 20px;
+	text-decoration: none;
+}
+#page:hover{
+	color: #e0e0e0;
+}
+#cart{
+	position: absolute;
+	top: 40px;
+	left: 1050px;
+	border-radius: 5px;
+	border: 0px solid;
+	cursor: pointer;
+	outline: none;
+	background-color: #ff9800;	
+}
+#cart:hover{
+	background-color: #f09642;
+}
+#crt{
+	height: 30px;
+	width: 35px;
+	margin: 5px;
+	margin-left: 12px;
+}
+#nav{
+	padding: 10px;
+	background-color: #fff;
+}
+#cntnr{
+	position: absolute;
+	top: 200px;
+	height: 500px;
+	width: 100%;
+}
+#image{
+	height: 500px;
+	width: 100%;
+	animation: fade 3s infinite;
+
+}
+@keyframes fade{
+	0%{
+		opacity:0.2 ;
+	}
+	10%{
+		opacity:0.3; 
+	}
+	20%{
+		opacity:0.5; 
+	}
+	35%{
+		opacity:0.7;
+	}
+	95%{
+		opacity:1 ;
+	}
+	100%{
+		opacity:1 ;
+	}
+}
+#next{
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+}
+#udata, #upwd{
+	text-align: center;
+	padding: 3px;
+	margin-top: 30px;
+	margin-left: 27%;
+	outline: none;
+}
+#upwd{
+	margin-top: 10px;
+}
+#lgndata{
+	position: absolute;
+	left: 38%;
+	top: 180px;
+	border :1px solid;
+	border-radius: 5px;
+	height: 300px;
+	width: 400px;
+	background-color: #ae9074;
+	outline: none;
+}
+#lgdata{
+	text-align: center;
+	margin-top: 10px;
+}
+#lgntitle{
+	text-decoration: none;
+	font-size: 40px;
+	font-family: chiller;
+	color :#adadad;
+	cursor: pointer; 
+	margin-left: 47%;
+	padding-top: 25px;
+	font-weight: bold;
+	outline: none;
+}
+#lgntitle:hover{
+	color: #e0e0e0;
+}
+#lgborder{
+	border: 0.5px solid #84613d;
+	width: 100%;
+	height: 45px;
+	background-color: #84613d; 
+}
+#lgnbtn{
+	position: absolute;
+	top: 170px;
+	left: 150px;
+	height: 30px;
+	width: 100px;
+	background: #2d180d;
+	cursor: pointer;
+	color: white;
+	border:0px;
+	border-radius: 5px;
+	outline: none;
+}
+#lgnbtn:hover{
+	background: #593c2d;
+}
+#sgnbtn{
+	font-size: 15px;
+	position: absolute;
+	cursor: pointer;
+	color: white;
+	border:0px;
+	border-radius: 5px;
+	height: 30px;
+	width: 150px;
+	top: 500px;px;
+	left: 650px;
+	background: green;
+	outline: none;
+}
+#sgnbtn:hover{
+	background: #1f8e23;
+}
+#ftr{
+	background: #84613d;
+	position: absolute;
+	height: 30px;
+	width: 100%;
+	top: 1000px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+	font-family: Monotype Corsiva;
+}
+
+#sgnup{
+	background-color: #aad4ff;
+	margin-left: 50%; 
+	width: 500px; 
+	height: 450px; 
+	border :3px solid; 
+	margin-top: 100px; 
+	border-radius: 5px; 
+	font-size: 20px; 
+	font-family: anadalus;
+}
+/* this code is for customer service */
+iframe{
+	margin-top: 10px;
+	margin-left: 50px;
+	height: 400px;
+	width: 600px;
+	border-radius: 8px;
+}
+#details{
+	position: absolute;
+	left: 700px;
+	top: 140px;
+}
+.element td input,textarea{
+	border-radius: 8px;
+	outline: none;
+ 	padding: 10px;
+ 	height: 25px;
+ 	width: 500px;
+ 	font-size: 20px;
+ 	margin: 8px;
+
+}
+.element td textarea{
+	height: 150px;
+ 	width: 300px;
+}
+#sbmtbtn{
+	height: 40px;
+	width: 150px;
+	background-color: #00aae9;
+	color: #fff;
+}
+#sbmtbtn:hover{
+	background-color: #25a7df;
+}
+#mailwb,#cntct,#addr {
+float: left;
+margin-left: 220px;
+margin-top: 100px;
+font-family: anadalus;
+}
+#cntctimg{
+	margin-left: 10px;
+	height: 70px;
+	width: 70px;
+}
+#cntctaddr{
+	margin-top: 0px;
+}
+#cntcticon{
+	height: 20px;
+	width: 20px;
+}
